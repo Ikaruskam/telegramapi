@@ -10,6 +10,8 @@ services:
     volumes:
       - './nginx.conf:/etc/nginx/nginx.conf'
       - '/etc/letsencrypt:/etc/letsencrypt'
+      - './nginx-selfsigned.crt:/etc/nginx/live/nginx-selfsigned.crt'  # монтируем сертификат
+      - './nginx-selfsigned.key:/etc/nginx/live/nginx-selfsigned.key'
     depends_on:
       - backend
       - frontend
