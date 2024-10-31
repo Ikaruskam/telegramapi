@@ -12,17 +12,17 @@ def get_items():
     items = [
         {
             "id": 1,
-            "name": "Docker",
+            "name": "Vika",
             "img": "https://www.svgrepo.com/show/530190/rabbit.svg",
         },
         {
             "id": 2,
-            "name": "Nginx",
+            "name": "Vanya",
             "img": "https://www.svgrepo.com/show/530182/crab.svg",
         },
         {
             "id": 3,
-            "name": "GitHub",
+            "name": "Serega",
             "img": "https://www.svgrepo.com/show/530193/polar-bear.svg",
         },
     ]
