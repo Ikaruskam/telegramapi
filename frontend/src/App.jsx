@@ -6,7 +6,7 @@ function App() {
   const [items, setItems] = useState(null)
 
   const fetchItems = () => {
-    axios.get('https://194.247.187.229/api/items').then(r => {
+    axios.get('https://api.telegramtrenerapi.com/items').then(r => {
       setItems(r.data)
     })
   }
